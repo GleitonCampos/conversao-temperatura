@@ -17,7 +17,7 @@ git clone https://github.com/GleitonCampos/conversao-temperatura.git
 ```
 2. **Fazer o build da imagem no Docker:**
 ```
-docker image build -t NOME_DA_IMAGEM .
+docker image build -t "NAMESPACE/REPOSITORIO:TAG" .
 ```
 3. **Executar o container:**
 ```
