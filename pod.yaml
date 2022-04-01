@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: temp
-    image: stuardbr/conversao-temperatura:v1
-    ports:
-      - containerPort: 8080
+      image: stuardbr/conversao-temperatura:v1
+      ports:
+        - containerPort: 8080
