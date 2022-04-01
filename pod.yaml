@@ -5,16 +5,8 @@ metadata:
   labels:
     app: temp
 spec:
-  selector:
-    matchLabels:
-      app: temp
-  template:
-    metadata:
-      labels:
-        app: temp
-    spec:
-      containers:
-        - name: temp
-          image: stuardbr/conversao-temperatura:v1
-          ports:
-            - containerPort: 8080
+  containers:
+    - name: temp
+    image: stuardbr/conversao-temperatura:v1
+    ports:
+      - containerPort: 8080
