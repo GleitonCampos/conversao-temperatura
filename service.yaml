@@ -16,8 +16,7 @@ spec:
         - name: temp
           image: stuardbr/conversao-temperatura:v1
           ports:
-            - containerPort: 8080
-            
+            - containerPort: 8080         
 ---
 apiVersion: v1
 kind: Service
